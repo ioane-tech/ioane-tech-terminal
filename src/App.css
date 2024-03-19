@@ -1,0 +1,24 @@
+body{
+  font-family: sans-serif;
+  background-color: rgb(22, 22, 22);
+  color: red;
+}
+a{
+  color: rgb(202, 209, 0);
+}
+a:hover{
+  color: rgb(139, 144, 0);
+}
+
+
+.container{
+  display: flex;
+}
+.terminal_input{
+  flex-grow: 1;
+  color: red;
+  background-color: rgb(22, 22, 22);
+  border: 0px;
+  outline: none;
+  caret-color: red;
+}
